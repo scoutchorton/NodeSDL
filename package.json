@@ -10,8 +10,17 @@
     "clean": "node-gyp clean",
     "configure": "node-gyp configure"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "scoutchorton",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoutchorton/NodeSDL.git"
+  },
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/scoutchorton/NodeSDL/issues"
+  },
+  "homepage": "https://github.com/scoutchorton/NodeSDL#readme",  
   "dependencies": {
     "nan": "^2.14.1"
   }
